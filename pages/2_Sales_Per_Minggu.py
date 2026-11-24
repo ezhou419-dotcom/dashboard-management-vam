@@ -75,7 +75,7 @@ else:
         )
     if df.empty:
         st.warning(
-            "Tidak ada data sales yang ditemukan pada rentang tanggal tersebut (07 November - 13 November 2026)."
+            "Tidak ada data sales yang ditemukan pada rentang tanggal tersebut (14 November - 20 November 2026)."
         )
     else:
         # 2. PEMBERSIHAN DATA NET SALES
@@ -234,7 +234,7 @@ else:
                 if selected_periode:
                     df = df[df["Periode_Bulan"].isin(selected_periode)]
         st.caption(
-            f"ℹ️ Total baris data dimuat (Periode Tgl_Inv 07 November - 13 November 2026): **{format_id(len(df), 0)} baris**"
+            f"ℹ️ Total baris data dimuat (Periode Tgl_Inv 14 November - 20 November 2026): **{format_id(len(df), 0)} baris**"
         )
         st.markdown(
             "<div style='margin-bottom: 5px;'></div>", unsafe_allow_html=True

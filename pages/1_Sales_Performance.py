@@ -704,7 +704,7 @@ def generate_full_pdf(summary_df, t_net_sales, t_cost, t_margin, c_label,
 
 
 
-LAST_UPDATE_DATE = "16 November 2026"
+LAST_UPDATE_DATE = "23 November 2026"
 
 
 
